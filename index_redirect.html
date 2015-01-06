@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>=)</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <script src="js/typed-js/typed.js" type="text/javascript"></script>
+  
+  <script>
+  $(document).ready(function() {
+    // $.when(function() {
+      $("#hello").typed({
+        strings: ["Oh hey! It's you =)", 
+                  "So you finally decided to check me out huh?     ", 
+                  "Welcome to my site!", 
+                  "Enjoy!~"],
+        typeSpeed: 50,
+        backDelay: 500,
+        loop: false
+      });
+    // }).done( function() {
+      // window.location.href = "/";
+    // });
+  });
+
+  $(document).ready(function() {
+      setTimeout(function() { 
+        // $('.enter').fadeIn("slow")
+         window.location.href = "main.html";
+      }, 
+      15000);
+    });
+
+  </script>
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="container-inner">
+      <p id="hello"></p>
+      <!-- <a href="main.html" class="enter">Continue</a> -->
+    </div>
+  </div>
+
+
+</body>
+
+</html>
