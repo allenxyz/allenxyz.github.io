@@ -171,6 +171,14 @@ p {
 #tv_img img {
 	width: 300px;
 }
+#pokemon_img img {
+	width: 300px;
+}
+
+#pokemon_content {
+	padding-top: 120px;
+}
+
 
 #websites ul a {
 	color: grey;
