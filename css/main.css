@@ -54,17 +54,25 @@ p {
 
 .name {
 	text-align: left;
+	vertical-align: bottom;
 	color: #397ACC;
 	font-family: "Roboto Slab", serif;
 	position: absolute;
 	padding-left: 20px;
-	font-size: 40px;
 	z-index: 1;
 	background-color: black;
 	width: 100%;
 	padding-bottom: 10px;
 
-	opacity: 0.8;
+	opacity: 0.6;
+}
+
+.name h1 {
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	font-variant: small-caps;
+
 }
 
 .nav > li {
