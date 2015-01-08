@@ -1,11 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Kelly+Slab|Roboto+Slab);
-/* need sass...
-@blue: #397ACC;
-@dblue: #587599;
-@lblue: #22F9FF;
-@lred: #FFD4C7;
-@dred: #CC1A07;
-*/
+
 h2 {
 	/*text-decoration: underline;*/
 	/*text-align: center;*/
@@ -113,10 +107,10 @@ p {
 	color: white;
 }
 .row_even {
-	background-color: #171763;
+	background-color: #4A4A4A;
 }
 .row_odd {
-	background-color: #3559BD;
+	background-color: #8A8A8A;
 }
 
 .outline {
@@ -126,7 +120,7 @@ p {
 }
 
 .content p {
-	color: lightgrey;
+	color: #DDD;
 	padding-left: 20px;
 }
 
