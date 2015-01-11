@@ -203,3 +203,7 @@ div[class="footer"] p {
 
 .clearfix {clear: both;}
 
+.container-fluid {
+	position: relative;
+	top: -5px;
+}

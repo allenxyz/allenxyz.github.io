@@ -38,6 +38,7 @@
         });
         $(".footer") .css("bottom", 0);
         $(".content").fadeIn(500).delay(500);
+        $('html, body').animate({scrollTop:0}, 'easeInOutBack');
         loading = false;
       }
     }
